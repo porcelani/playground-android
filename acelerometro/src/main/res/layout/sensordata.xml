@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="5dp"
+  android:background="#cccccc">
+  
+  <TextView
+      android:id="@+id/sensorName"
+      android:layout_width="fill_parent"
+      android:layout_height="32dp"
+      android:background="#ffffff"
+      android:scaleType="centerCrop"
+      android:paddingLeft="5dp"
+      android:textSize="20sp" />
+  
+  <TextView
+      android:id="@+id/sensorValue1"
+      android:layout_width="fill_parent"
+      android:layout_height="20dp"
+      android:layout_below="@+id/sensorName"
+      android:textColor="#333333"
+      android:paddingLeft="5dp"  />
+
+  <TextView
+      android:id="@+id/sensorValue2"
+      android:layout_width="fill_parent"
+      android:layout_height="20dp"
+      android:layout_alignLeft="@+id/sensorValue1"
+      android:layout_below="@+id/sensorValue1"
+      android:paddingLeft="5dp"
+      android:textColor="#333333" />
+
+  <TextView
+      android:id="@+id/sensorValue3"
+      android:layout_width="fill_parent"
+      android:layout_height="20dp"
+      android:layout_alignLeft="@+id/sensorValue2"
+      android:layout_below="@+id/sensorValue2"
+      android:textColor="#333333" 
+      android:paddingLeft="5dp" />
+  
+</RelativeLayout>
